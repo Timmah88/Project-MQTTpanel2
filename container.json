@@ -10,7 +10,7 @@
 	"restart": "--restart no",
 	"args": "--device /dev/mem:/dev/mem --privileged --user root",
 	"env": "VERSION",
-	"image:" "${MODULES.CSharpModule.arm32v7}"
+	"image:" "arm32v7"
 	
 }
 
