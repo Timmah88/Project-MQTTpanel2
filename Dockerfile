@@ -1,4 +1,4 @@
-#!/bin/bash
+
 FROM mickmake/rpi-mqtt:latest
 
 MAINTAINER Mick Hellstrom <mick@mickmake.com>
