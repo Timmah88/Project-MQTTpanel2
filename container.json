@@ -9,8 +9,7 @@
 	"volumes": "-v \"$PWD/mosquitto\":\"$PWD/mosquitto\" -v mosquitto:/var/lib/mosquitto -v \"$HOME\":\"$HOME\"",
 	"restart": "--restart no",
 	"args": "--device /dev/mem:/dev/mem --privileged --user root",
-	"env": "VERSION",
-	"image:" "arm32v7"
+	"env": "VERSION"
 	
 }
 
