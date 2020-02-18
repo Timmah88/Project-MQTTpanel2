@@ -1,9 +1,10 @@
+#!/bin/bash
 FROM mickmake/rpi-mqtt:latest
 
 MAINTAINER Mick Hellstrom <mick@mickmake.com>
 
 COPY files/ /
-#!/bin/bash
+
 RUN apk update && \
 	apk add --no-cache python py-paho-mqtt py-pillow libstdc++ make rsync g++ \
 		ttf-freefont ttf-opensans ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family ttf-droid ttf-liberation ttf-linux-libertine \
