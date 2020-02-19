@@ -3,6 +3,8 @@ FROM mickmake/rpi-mqtt:latest
 
 MAINTAINER Mick Hellstrom <mick@mickmake.com>
 
+WORKDIR /root/rpi-rgb-led-matrix
+
 COPY files/ /
 
 RUN apk update && \
@@ -21,7 +23,7 @@ RUN apk update && \
 
 
 # ttf-cantarell ttf-font-awesome ttf-mononoki
-WORKDIR /root
+
 
 EXPOSE 1883
 
