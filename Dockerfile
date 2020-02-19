@@ -3,7 +3,7 @@ FROM mickmake/rpi-mqtt:latest
 
 MAINTAINER Mick Hellstrom <mick@mickmake.com>
 
-WORKDIR /root/rpi-rgb-led-matrix
+WORKDIR /root
 
 COPY files/ /
 
